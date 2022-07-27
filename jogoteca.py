@@ -14,7 +14,7 @@ class Usuario:
         self.nickname = nickname
         self.senha = senha
 
-adm = Usuario("GOD","admin","deniboy123")
+adm = Usuario("admin","admin","admin")
 usuarios = {adm.nickname : adm}
 
 jogo1 = Jogo('Tetris', "Puzzle", "Atari", 4)
